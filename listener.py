@@ -12,5 +12,5 @@ def read_from_json_line(file_path):
     return data
 
 if active:
-        data=read_from_json_line('C:/Users/BPR/Desktop/project-james-master/polivion.json')
+        data=read_from_json_line('input_file_path_here')
         a=[int(s) for d in data for s in d['text'].split() if s.isdigit()]
