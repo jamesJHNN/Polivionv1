@@ -1,0 +1,20 @@
+import rhinoscriptsyntax as rs
+import Rhino.Geometry as rg
+import math
+import time
+
+t=time.clock()
+
+ptList=rs.coerce3dpointlist(mPt)
+
+att=rs.coerce3dpointlist(atPt)
+
+listLen1=[]
+listLen2=[]
+for i in range(len(ptList)):
+    listLen1.append(rg.Line(att[0],ptList[i]).Length)
+    listLen2.append(rg.Line(att[1],ptList[i]).Length)
+
+    ptList[i].Z=h*(math.exp(-nu1*listLen1[i])*math.cos(k*listLen1[i]-w*t)+math.exp(-nu2*listLen2[i])*math.cos(k*listLen2[i]-w*t))
+
+a=ptList
