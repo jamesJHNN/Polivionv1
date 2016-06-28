@@ -8,7 +8,7 @@ https://dev.twitter.com/rest/public
  * Input access tokens in ci, cs, aci, acs (helpers.py)
  * helpers.py and main.py to be opened in your python IDE
  * listener.py and waveGen.py are grasshopper python scripts
- * 
+ * input the file path where the .json file is written in listener.py
 
 
 ## Examples 
