@@ -5,7 +5,10 @@ https://dev.twitter.com/rest/public
 ## How to use this module 
 
  * You need to install the json and tweepy package
- * input access tokens in ci, cs, aci, acs (helpers.py)
+ * Input access tokens in ci, cs, aci, acs (helpers.py)
+ * helpers.py and main.py to be opened in your python IDE
+ * listener.py and waveGen.py are grasshopper python scripts
+ * 
 
 
 ## Examples 
