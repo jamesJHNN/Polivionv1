@@ -1,5 +1,5 @@
-# Tweeter API 
-[https://dev.twitter.com/rest/public]
+## Tweeter API 
+https://dev.twitter.com/rest/public
 
 
 ## How to use this module 
